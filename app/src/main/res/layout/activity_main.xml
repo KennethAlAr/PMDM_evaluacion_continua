@@ -4,37 +4,85 @@
     android:layout_height="match_parent"
     android:padding="20dp"
     android:orientation="vertical"
-    android:gravity="center">
+    android:gravity="center"
+    android:background="@drawable/fondo_main_activity">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/mugiwara_logo"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="App Piece"
-        android:textSize="24dp"
-        android:textStyle="bold"/>
+        android:textSize="42dp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:fontFamily="sans-serif-condensed"/>
 
-    <Button
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-condensed"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:textColor="#1A1A1A"
+        android:text="La App para fans de One Piece"/>
+
+    <androidx.appcompat.widget.AppCompatButton
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Openings"
-        android:id="@+id/btnOpenings"/>
+        android:backgroundTint="@null"
+        android:background="@drawable/fondo_opening_item"
+        android:id="@+id/btnOpenings"
+        android:layout_marginVertical="5dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#1A1A1A"
+        android:fontFamily="sans-serif-condensed"/>
 
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="OST"
-        android:id="@+id/btnOST"/>
+        android:text="Melodías del Grand Line"
+        android:backgroundTint="@null"
+        android:background="@drawable/fondo_ost_item"
+        android:id="@+id/btnOST"
+        android:layout_marginVertical="5dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#1A1A1A"
+        android:fontFamily="sans-serif-condensed"/>
 
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Mugiwaras"
-        android:id="@+id/btnNakamas"/>
+        android:backgroundTint="@null"
+        android:background="@drawable/fondo_mugiwaras_button"
+        android:id="@+id/btnNakamas"
+        android:layout_marginVertical="5dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#1A1A1A"
+        android:fontFamily="sans-serif-condensed"/>
 
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="¡¿Quién es tu capitán?!"
-        android:id="@+id/btnCapitanes"/>
+        android:backgroundTint="@null"
+        android:background="@drawable/fondo_capitan_button"
+        android:id="@+id/btnCapitanes"
+        android:layout_marginVertical="5dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#1A1A1A"
+        android:fontFamily="sans-serif-condensed"/>
 
 </LinearLayout>

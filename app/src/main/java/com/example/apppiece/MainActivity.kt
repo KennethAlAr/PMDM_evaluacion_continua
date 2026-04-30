@@ -13,6 +13,7 @@ class MainActivity : AppCompatActivity() {
         val botonOpenings = findViewById<Button>(R.id.btnOpenings)
         val botonCapitanes = findViewById<Button>(R.id.btnCapitanes)
         val botonNakamas = findViewById<Button>(R.id.btnNakamas)
+        val botonOst = findViewById<Button>(R.id.btnOST)
 
         botonOpenings.setOnClickListener {
             val intent = Intent(this, OpeningListActivity::class.java)
@@ -26,6 +27,11 @@ class MainActivity : AppCompatActivity() {
 
         botonNakamas.setOnClickListener {
             val intent = Intent(this, NakamaListActivity::class.java)
+            startActivity(intent)
+        }
+
+        botonOst.setOnClickListener {
+            val intent = Intent(this, OstActivity::class.java)
             startActivity(intent)
         }
     }

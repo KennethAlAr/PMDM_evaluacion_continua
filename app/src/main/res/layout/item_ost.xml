@@ -1,33 +1,32 @@
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="horizontal"
     android:padding="5dp"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="@drawable/fondo_opening_item"
     android:gravity="center_vertical"
+    android:background="@drawable/fondo_ost_item"
     android:layout_marginVertical="3dp">
 
     <androidx.cardview.widget.CardView
-        android:layout_width="80dp"
-        android:layout_height="80dp"
-        app:cardCornerRadius="40dp"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        app:cardCornerRadius="30dp"
         app:cardElevation="0dp"
-        app:cardBackgroundColor="#909090"
+        app:cardBackgroundColor="#000000"
         android:layout_margin="5dp">
 
         <androidx.cardview.widget.CardView
-            android:layout_width="74dp"
-            android:layout_height="74dp"
-            app:cardCornerRadius="37dp"
+            android:layout_width="54dp"
+            android:layout_height="54dp"
+            app:cardCornerRadius="27dp"
             app:cardElevation="0dp"
             android:layout_gravity="center">
 
             <ImageView
-                android:layout_width="74dp"
-                android:layout_height="74dp"
-                android:id="@+id/imgVideo"
+                android:layout_width="54dp"
+                android:layout_height="54dp"
+                android:id="@+id/imgOst"
                 android:scaleType="centerCrop"
                 android:src="@drawable/ic_launcher_background"/>
 
@@ -38,11 +37,11 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/txtTitulo"
+        android:id="@+id/txtTituloOst"
         android:textSize="18sp"
         android:textStyle="bold"
         android:fontFamily="sans-serif-condensed-light"
         android:textColor="#1A1A1A"
-        android:layout_marginStart="10dp"/>
+        android:layout_marginStart="20dp"/>
 
 </LinearLayout>

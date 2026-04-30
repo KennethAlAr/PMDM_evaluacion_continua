@@ -27,7 +27,7 @@ class NakamaAdapter (
         val nakama = lista[position]
 
         holder.nombre.text = nakama.nombre
-        holder.imagen.setImageResource(nakama.imagen)
+        holder.imagen.setImageResource(nakama.imagenNakama)
 
         holder.itemView.setOnClickListener {
             onClick(nakama)

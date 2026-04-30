@@ -31,7 +31,7 @@ class NakamaListActivity : AppCompatActivity() {
 
         val adapter = NakamaAdapter(listaNakamas) { nakama ->
             val intent = Intent(this, NakamaActivity::class.java)
-            intent.putExtra("imagen", nakama.imagen)
+            intent.putExtra("imagen", nakama.imagenNakama)
             intent.putExtra("nombre", nakama.nombreCompleto)
             intent.putExtra("apodo", nakama.apodo)
             intent.putExtra("descripcion", nakama.descripcion)

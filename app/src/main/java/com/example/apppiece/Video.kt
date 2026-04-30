@@ -1,6 +1,6 @@
 package com.example.apppiece
 
-class Video (
+data class Video (
     val titulo: String,
     val autor: String,
     val descripcion: String,
