@@ -15,6 +15,7 @@
         <activity android:name=".VideoActivity"/>
         <activity android:name=".CapitanesActivity"/>
         <activity android:name=".NakamaListActivity"/>
+        <activity android:name=".NakamaActivity"/>
         <activity
             android:name=".MainActivity"
             android:exported="true">

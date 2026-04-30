@@ -16,4 +16,64 @@
         "Kokoro no Chizu" (Mapa del Corazón) es el quinto opening de One Piece, interpretado por el grupo femenino BOYSTYLE.\n\n
         Es uno de los openings más queridos por los fans, ya que abarca el inicio de la legendaria saga de Water 7. La canción captura perfectamente el espíritu de aventura de los Sombrero de Paja justo antes de enfrentarse a uno de sus mayores retos emocionales: el conflicto interno de la tripulación y la misteriosa desaparición de Nico Robin.
     </string>
+
+    <string name="descripcion_luffy">
+        Monkey D. Luffy, conocido como "Sombrero de Paja", es el fundador y capitán de la tripulación. Tras consumir la fruta Gomu Gomu, su cuerpo adquirió las propiedades de la goma.\n\n
+        Es un joven alegre, intrépido y con un apetito voraz. Su mayor sueño es encontrar el legendario tesoro One Piece y convertirse en el próximo Rey de los Piratas, guiando a su tripulación con una lealtad inquebrantable hacia sus nakamas.
+    </string>
+
+    <string name="descripcion_zoro">
+        Roronoa Zoro, apodado "El Cazador de Piratas", es el combatiente de la tripulación y el primer nakama en unirse a Luffy. Es un maestro de la espada que utiliza el singular estilo Santoryu (estilo de tres espadas).\n\n
+        Su ambición es derrotar a Dracule Mihawk y convertirse en el mejor espadachín del mundo, cumpliendo así la promesa que le hizo a su amiga de la infancia, Kuina.
+    </string>
+
+    <string name="descripcion_nami">
+        Nami, la "Gata Ladrona", es la brillante navegante de los Sombrero de Paja. Posee un talento innato para la meteorología y una pasión desmedida por las mandarinas y el dinero (especialmente los tesoros).\n\n
+        Su sueño es dibujar el primer mapa completo del mundo entero. Aunque al principio desconfiaba de los piratas, encontró en Luffy y los demás a su verdadera familia.
+    </string>
+
+    <string name="descripcion_usopp">
+        Usopp, también conocido como "Dios Usopp", es el ingenioso francotirador de la tripulación. Aunque tiende a ser cobarde e inventar mentiras exageradas, posee una puntería excepcional.\n\n
+        Su mayor objetivo es convertirse en un valiente guerrero del mar, al igual que su padre Yasopp, enfrentando sus propios miedos cada vez que sus amigos están en peligro.
+    </string>
+
+    <string name="descripcion_sanji">
+        Vinsmoke Sanji, "Pierna Negra", es el talentoso cocinero del barco. Heredó sus increíbles habilidades culinarias y su letal estilo de combate basado en patadas de su mentor, Zeff Pierna Roja.\n\n
+        Es un caballero empedernido que se niega a usar sus manos para pelear o a golpear a una mujer. Su gran sueño es encontrar el All Blue, el mar legendario donde convergen los peces de los cuatro océanos.
+    </string>
+
+    <string name="descripcion_chopper">
+        Tony Tony Chopper es el médico de la tripulación. Es un reno de nariz azul que comió la fruta Hito Hito, adquiriendo inteligencia y apariencia humana, así como la capacidad de transformarse.\n\n
+        Instruido por el doctor Hiluluk y la doctora Kureha, su sueño es convertirse en un médico capaz de curar cualquier enfermedad del mundo. A menudo es confundido con la mascota del barco por la Marina.
+    </string>
+
+    <string name="descripcion_robin">
+        Nico Robin, "La Niña Demonio", es la arqueóloga de los Sombrero de Paja y la única superviviente del trágico Incidente de Ohara. Gracias a la fruta Hana Hana, puede hacer brotar partes de su cuerpo en cualquier superficie.\n\n
+        Su meta en la vida es encontrar el Rio Poneglyph y descifrar la verdadera historia del Siglo Vacío, un objetivo por el cual el Gobierno Mundial la ha perseguido desde que era una niña.
+    </string>
+
+    <string name="descripcion_franky">
+        Franky, "El Cyborg", es el excéntrico carpintero naval de la tripulación. Tras un grave accidente en su juventud, modificó su propio cuerpo con tecnología avanzada y armamento pesado que funciona a base de refresco de cola.\n\n
+        Fue el encargado de construir el Thousand Sunny, y su sueño es que este barco sea capaz de navegar por los mares más peligrosos y llegar hasta el final del Grand Line, tal como lo hizo el barco de Gol D. Roger.
+    </string>
+
+    <string name="descripcion_brook">
+        Brook, el "Rey del Soul", es el músico y segundo espadachín de la tripulación. Es un esqueleto viviente gracias al poder de la fruta Yomi Yomi, que le permitió resucitar tras morir hace décadas.\n\n
+        Su estilo de combate combina la esgrima rápida con la música y el poder del inframundo. Su mayor motivación es dar la vuelta al mundo para cumplir la promesa de reencontrarse con Laboon, la ballena que dejó atrás hace 50 años.
+    </string>
+
+    <string name="descripcion_jinbe">
+        Jinbe, el "Caballero del Mar", es el formidable timonel de los Sombrero de Paja. Es un gyojin tiburón ballena, antiguo miembro de los Siete Guerreros del Mar (Shichibukai) y un maestro del Gyojin Karate.\n\n
+        Con una personalidad serena, sabia y honorable, su gran sueño es cumplir la voluntad de Fisher Tiger y la Reina Otohime: lograr la verdadera paz, igualdad y coexistencia entre los humanos y los gyojin.
+    </string>
+
+    <string name="descripcion_merry">
+        El Going Merry fue la primera nave y el hogar de los Sombrero de Paja. Un regalo de Kaya y el mayordomo Merry, este barco carabela navegó junto a la tripulación desde el East Blue hasta Water 7.\n\n
+        El amor que la tripulación sentía por el barco era tan profundo que el Merry desarrolló su propio espíritu (Klabautermann), permitiéndole cobrar vida temporalmente para salvar a sus queridos nakamas por última vez en Enies Lobby.
+    </string>
+
+    <string name="descripcion_sunny">
+        El Thousand Sunny es el segundo y actual barco de la tripulación. Fue construido por Franky utilizando la legendaria y resistente madera del Árbol de Adam, combinando tecnología avanzada con un diseño excepcional.\n\n
+        Está equipado con increíbles funciones como el Coup de Burst y el sistema de canales Soldier Dock. El Sunny no es solo un barco de ensueño, sino un nakama más destinado a convertirse en la nave del futuro Rey de los Piratas.
+    </string>
 </resources>
