@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">AppPiece</string>
+
+    <string name="descripcion_we_are">
+        Esta es la versión especial de "We Are!" producida exclusivamente para celebrar el episodio 1000 del anime.\n\n
+        Aunque el intérprete sigue siendo el gran Hiroshi Kitadani, la animación fue completamente recreada fotograma a fotograma como homenaje al opening original de 1999. Es un tributo épico que muestra el largo camino recorrido por Luffy y su tripulación desde el East Blue hasta el país de Wano, manteniendo viva la llama de la aventura original.
+    </string>
+
+    <string name="descripcion_brand_new_world">
+        Interpretado por el grupo D-51, este opening destaca por su ritmo frenético.\n\n
+        Es recordado por representar uno de los momentos más tensos y épicos:
+        el asalto a la isla judicial de Enies Lobby para rescatar a Nico Robin.
+    </string>
+
+    <string name="descripcion_kokoro_no_chizu">
+        "Kokoro no Chizu" (Mapa del Corazón) es el quinto opening de One Piece, interpretado por el grupo femenino BOYSTYLE.\n\n
+        Es uno de los openings más queridos por los fans, ya que abarca el inicio de la legendaria saga de Water 7. La canción captura perfectamente el espíritu de aventura de los Sombrero de Paja justo antes de enfrentarse a uno de sus mayores retos emocionales: el conflicto interno de la tripulación y la misteriosa desaparición de Nico Robin.
+    </string>
+</resources>
