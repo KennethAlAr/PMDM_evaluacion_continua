@@ -12,8 +12,11 @@ class NakamaListActivity : AppCompatActivity() {
         setContentView(R.layout.activity_nakama_list)
 
         val recycler = findViewById<RecyclerView>(R.id.recyclerNakamas)
+        //Utilizamos un GridLayoutManager para mostrar la lista en columnas de a tres.
         recycler.layoutManager = GridLayoutManager(this, 3)
 
+        //Cargamos la lista de Nakamas. Para las descripciones, al ser largas, se ha usado el
+        //strings.xml y se han importado de ahí para mantener el código mas limpio.
         val listaNakamas = listOf(
             Nakama("Luffy", "Monkey D. Luffy", "Mugiwara", getString(R.string.descripcion_luffy), R.drawable.nakama_luffy),
             Nakama("Zoro", "Roronoa Zoro", "Cazador de Piratas", getString(R.string.descripcion_zoro), R.drawable.nakama_zoro),
@@ -29,6 +32,7 @@ class NakamaListActivity : AppCompatActivity() {
             Nakama("Thousand Sunny", "Thousand Sunny", "", getString(R.string.descripcion_sunny), R.drawable.nakama_sunny)
         )
 
+        //Utilizamos el adapter para relacionar nuestra lista con la NakamaActivity
         val adapter = NakamaAdapter(listaNakamas) { nakama ->
             val intent = Intent(this, NakamaActivity::class.java)
             intent.putExtra("imagen", nakama.imagenNakama)

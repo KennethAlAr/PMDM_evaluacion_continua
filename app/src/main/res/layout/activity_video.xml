@@ -7,6 +7,7 @@
     android:orientation="vertical"
     android:background="@drawable/fondo_opening_list_activity">
 
+<!--En vez de usar el VideoView usamos el PlayerView de la biblioteca de media3-->
     <androidx.media3.ui.PlayerView
         android:id="@+id/playerView"
         android:layout_width="match_parent"

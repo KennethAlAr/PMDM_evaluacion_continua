@@ -1,11 +1,12 @@
 package com.example.apppiece
 
-import android.net.Uri
 import android.os.Bundle
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 
+
+//Esta Activity es una actividad normal que muestra imagenes y texto
 class NakamaActivity : AppCompatActivity(){
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

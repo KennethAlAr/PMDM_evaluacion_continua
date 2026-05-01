@@ -1,3 +1,5 @@
+//Creamos un json con todos los capitanes y sus atributos para cargarlos mas tarde
+//con la biblioteca json.
 [
   {
     "nombre": "Portgas D. Ace",

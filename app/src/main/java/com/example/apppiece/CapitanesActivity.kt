@@ -9,6 +9,7 @@ import org.json.JSONArray
 
 class CapitanesActivity : AppCompatActivity() {
 
+    //Creamos una lista de capitanes para guardarlos
     private val listaCapitanes = mutableListOf<Capitan>()
 
     private lateinit var imgCapitan: ImageView
@@ -25,10 +26,12 @@ class CapitanesActivity : AppCompatActivity() {
         txtTripulacion = findViewById(R.id.txtTripulacion)
         btnCapitan = findViewById(R.id.btnCapitan)
 
+        //Los capitanes se cargan cada vez que entramos en la activity.
         cargarPersonajes()
 
         btnCapitan.setOnClickListener {
             if(listaCapitanes.isNotEmpty()){
+                //Cuando se hace click en el botón se elige un capitán aleatorio.
                 val capitanRandom = listaCapitanes.random()
                 mostrarGanador(capitanRandom)
             }
@@ -36,6 +39,8 @@ class CapitanesActivity : AppCompatActivity() {
     }
 
     private fun cargarPersonajes() {
+        //La función cargarPersonajes() utiliza la biblioteca de json para parsear el capitanes.json
+        //a objetos Capitan y meterlos en la lista de capitanes que hemos creado.
         try{
             val jsonString = assets.open("capitanes.json").bufferedReader().use { it.readText() }
             val jsonArray = JSONArray(jsonString)
@@ -57,9 +62,11 @@ class CapitanesActivity : AppCompatActivity() {
     private fun mostrarGanador(capitan : Capitan) {
         txtNombre.text = capitan.nombre
         txtTripulacion.text = capitan.tripulacion
-
+        //Al haber creado las clases desde un json, la referencia a la imagen es un String
+        //por eso llamamos a la imagen con getIdentifier()
         val idImagen = resources.getIdentifier(capitan.imagen, "drawable", packageName)
 
+        //Si la id es 0 significa que no ha cogido ninguna imagen, por lo tanto ponemos la imagen por defecto.
         if (idImagen != 0) {
             imgCapitan.setImageResource(idImagen)
         } else {

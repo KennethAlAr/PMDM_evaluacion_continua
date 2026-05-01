@@ -10,6 +10,9 @@ import androidx.media3.ui.PlayerView
 
 class VideoActivity : AppCompatActivity() {
 
+    //He cambiado el VideoView por la biblioteca media3. De esta manera podemos utilizar su controlador
+    //multimedia que se puede modificar y usar mejor que el media player que viene por defecto en
+    //Android Studio
     private var player: ExoPlayer? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -29,18 +32,22 @@ class VideoActivity : AppCompatActivity() {
         txtAutor.text = "Por: $autor"
         txtDescripcion.text = descripcion
 
+        //Cargamos Exoplayer para usar el controllador de media de media3
         player = ExoPlayer.Builder(this).build()
         playerView.player = player
 
 
         val uri = Uri.parse("android.resource://$packageName/$videoId")
+        //En vez de utilizar el videoView, guardamos la uri en un MediaItem
         val mediaItem = MediaItem.fromUri(uri)
 
+        //Usamos el mediaItem para cargar el video y reproducirlo con el Exoplayer
         player?.setMediaItem(mediaItem)
         player?.prepare()
         player?.play()
     }
 
+    //La función onDestroy() sirve para cerrar el video al abandonar la actividad.
     override fun onDestroy() {
         super.onDestroy()
         player?.release()

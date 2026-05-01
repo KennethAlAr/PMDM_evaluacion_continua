@@ -54,6 +54,7 @@
         android:layout_height="0dp"
         android:layout_weight="1" />
 
+<!--En ves de usar Button normal, usamos AppCompatButton para poder personalizarlos con fondos xml-->
     <androidx.appcompat.widget.AppCompatButton
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -67,6 +68,8 @@
         android:textColor="#1A1A1A"
         android:fontFamily="sans-serif-condensed"/>
 
+<!--Ponemos un colchón de 50dp debajo del botón para que no aparezca pegado a la parte inferior
+de la pantalla-->
     <View
         android:layout_width="match_parent"
         android:layout_height="50dp" />

@@ -25,6 +25,7 @@
         android:layout_marginTop="10dp"
         android:paddingHorizontal="15dp"/>
 
+<!--Este es el controlador de media personalizado que hemos creado para el control de la música.-->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -90,6 +91,8 @@
 
     </LinearLayout>
 
+<!--Ponemos un colchón de 50dp debajo del controlador para que no aparezca pegado a la parte
+inferior de la pantalla-->
     <View
         android:layout_width="match_parent"
         android:layout_height="50dp" />

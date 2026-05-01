@@ -9,6 +9,9 @@
     android:gravity="center_vertical"
     android:layout_marginVertical="3dp">
 
+<!--Usamos el CardView para poder quitar las esquinas de las imagenes y hacerlas redondas.
+Además, ponemos uno encima de otro con una diferencia en el radio de 3dp para darle un
+marco con el background-->
     <androidx.cardview.widget.CardView
         android:layout_width="80dp"
         android:layout_height="80dp"

@@ -33,6 +33,7 @@
         android:textColor="#1A1A1A"
         android:text="La App para fans de One Piece"/>
 
+<!--En ves de usar Button normal, usamos AppCompatButton para poder personalizarlos con fondos xml-->
     <androidx.appcompat.widget.AppCompatButton
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

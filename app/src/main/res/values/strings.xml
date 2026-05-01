@@ -1,3 +1,5 @@
+<!--En el strings.xml hemos añadido los strings alrgos que usaremos (descripciones) para no cargar
+el código con texto demasiado largo.-->
 <resources>
     <string name="app_name">AppPiece</string>
 

@@ -7,6 +7,7 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 
+//El adaptador de Video lo utilizamos para relacionar el recyclreView con la Actividad y el layout
 class VideoAdapter(
     private val lista: List<Video>,
     private val onClick: (Video) -> Unit

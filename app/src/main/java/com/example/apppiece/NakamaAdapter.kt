@@ -7,6 +7,8 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 
+//Como los Nakama aparecen en un recyclerView, necesitamos un Adapter para relacionar las lista con
+//el layout y con la NakamaActivity
 class NakamaAdapter (
     private val lista: List<Nakama>,
     private val onClick: (Nakama) -> Unit
